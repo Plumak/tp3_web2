@@ -1,7 +1,9 @@
 Nuestra api tiene como objetivo acceder a los datos de los jugadores que estan en la base de datos.
 Para no tener que chequear en la DB dejamos los id de los jugadores disponibles y los clubes.
+
 id_jugador : 1001,1002,1003,1004,1005,1006
 id_clubes : 3001,3002,3003,3004
+
 URL's de la api:
 Obtener listado de jugadores mediante get(GET): Lista todos los jugadores ordenados por defecto. (descendentemente por su edad).
 http://localhost/entrega3-web2/api/jugadores/
